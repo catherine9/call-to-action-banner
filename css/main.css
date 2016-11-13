@@ -7,24 +7,30 @@ html {
 }
 
 .img-flex {
-  max-height: 500px;
   display: block;
   width: 100%;
 }
 
 .circle {
-  max-width: 500px;
-  position: relative;
   float: left;
+  width: 20%;
+  margin: 1rem;
+  margin-top: 4px;
+  margin-right: 10rem;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 20%;
+  margin-left: -30rem;
 }
 
 .banner-content {
   font-family: Roboto, sans-serif;
   font-size: 1.5rem;
-  display: inline-block;
+  display: inline;
   overflow: hidden;
   float: right;
-  width: 50%;
+  width: 30%;
 }
 
 h2 {
@@ -33,6 +39,7 @@ h2 {
   left: 50%;
   top: 0;
   font-weight: bold;
+  font-size: 3rem;
 }
 
 p {
@@ -41,6 +48,7 @@ p {
   left: 50%;
   bottom: 70%;
   font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
 }
 
 .banner {
@@ -51,4 +59,21 @@ p {
 
 body {
   margin: 0;
+}
+
+.btn {
+  margin: 30rem;
+  overflow: hidden;
+}
+
+.btn-big {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5;
+  border-color: 3px solid #000;
+  border-radius: 3px solid #000;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.btn:hover {
 }
